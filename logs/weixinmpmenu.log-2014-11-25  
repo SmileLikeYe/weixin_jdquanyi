@@ -1,0 +1,55 @@
+[INFO ] 2014-11-25 09:27:44,980 org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+  [INFO ] 2014-11-25 09:27:45,001                 org.hibernate.Version     - HHH000412: Hibernate Core {4.3.1.Final}
+  [INFO ] 2014-11-25 09:27:45,007         org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+  [INFO ] 2014-11-25 09:27:45,010         org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+  [INFO ] 2014-11-25 09:27:45,087       org.hibernate.cfg.Configuration     - HHH000043: Configuring from resource: /hibernate.cfg.xml
+  [INFO ] 2014-11-25 09:27:45,087       org.hibernate.cfg.Configuration     - HHH000040: Configuration resource: /hibernate.cfg.xml
+  [WARN ] 2014-11-25 09:27:45,221 org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+  [INFO ] 2014-11-25 09:27:45,277       org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+  [WARN ] 2014-11-25 09:27:45,520 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+  [INFO ] 2014-11-25 09:27:45,535 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jdquanyi]
+  [INFO ] 2014-11-25 09:27:45,536 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000046: Connection properties: {user=root, password=****}
+  [INFO ] 2014-11-25 09:27:45,536 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000006: Autocommit mode: false
+  [INFO ] 2014-11-25 09:27:45,537 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 200 (min=1)
+  [INFO ] 2014-11-25 09:27:46,220         org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  [INFO ] 2014-11-25 09:27:46,486 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+  [INFO ] 2014-11-25 09:27:46,495 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+  [INFO ] 2014-11-25 09:27:47,011 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+  [INFO ] 2014-11-25 09:27:47,012 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+  [INFO ] 2014-11-25 09:27:47,015 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+  [INFO ] 2014-11-25 09:27:47,060 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: jdquanyi.FX_FuXiu
+  [INFO ] 2014-11-25 09:27:47,060 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [fx_fromusername, fx_description, fx_id]
+  [INFO ] 2014-11-25 09:27:47,061 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+  [INFO ] 2014-11-25 09:27:47,061 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+  [INFO ] 2014-11-25 09:27:47,082 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: jdquanyi.SW_ShiWu
+  [INFO ] 2014-11-25 09:27:47,082 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [sw_decsription, sw_type, sw_place, sw_id]
+  [INFO ] 2014-11-25 09:27:47,082 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+  [INFO ] 2014-11-25 09:27:47,083 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+  [INFO ] 2014-11-25 09:27:47,303 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+  [INFO ] 2014-11-25 09:27:47,856 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/jdquanyi]
+  [INFO ] 2014-11-25 09:27:47,864       org.hibernate.cfg.Configuration     - HHH000043: Configuring from resource: /hibernate.cfg.xml
+  [INFO ] 2014-11-25 09:27:47,864       org.hibernate.cfg.Configuration     - HHH000040: Configuration resource: /hibernate.cfg.xml
+  [WARN ] 2014-11-25 09:27:47,868 org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+  [INFO ] 2014-11-25 09:27:47,875       org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+  [WARN ] 2014-11-25 09:27:47,895 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+  [INFO ] 2014-11-25 09:27:47,895 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jdquanyi]
+  [INFO ] 2014-11-25 09:27:47,896 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000046: Connection properties: {user=root, password=****}
+  [INFO ] 2014-11-25 09:27:47,896 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000006: Autocommit mode: false
+  [INFO ] 2014-11-25 09:27:47,904 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 200 (min=1)
+  [INFO ] 2014-11-25 09:27:47,939         org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  [INFO ] 2014-11-25 09:27:47,949 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+  [INFO ] 2014-11-25 09:27:47,950 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+  [INFO ] 2014-11-25 09:27:47,968 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+  [INFO ] 2014-11-25 09:27:47,968 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+  [INFO ] 2014-11-25 09:27:47,969 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+  [INFO ] 2014-11-25 09:27:47,986 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: jdquanyi.FX_FuXiu
+  [INFO ] 2014-11-25 09:27:47,987 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [fx_fromusername, fx_description, fx_name, fx_id, fx_academy, fx_studentnumber]
+  [INFO ] 2014-11-25 09:27:47,987 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+  [INFO ] 2014-11-25 09:27:47,987 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+  [INFO ] 2014-11-25 09:27:48,005 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: jdquanyi.SW_ShiWu
+  [INFO ] 2014-11-25 09:27:48,005 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [sw_decsription, sw_type, sw_place, sw_id]
+  [INFO ] 2014-11-25 09:27:48,007 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+  [INFO ] 2014-11-25 09:27:48,007 org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+  [INFO ] 2014-11-25 09:27:48,007 org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+  [INFO ] 2014-11-25 09:27:48,026 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/jdquanyi]
+  

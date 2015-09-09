@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>src/java/smile/weixin/jdquanyi/util/MessageUtil.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>9</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/java/smile/weixin/jdquanyi/service/CoreService.java</url>
+            <bookmark id="2">
+                <name/>
+                <line>573</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/smile/2%20Develop-Space/Program%20Data/Netbean%20Workpalce/WeiXin003/src/java/hibernate.cfg.xml</file>
+            <file>file:/Users/smile/2%20Develop-Space/Program%20Data/Netbean%20Workpalce/WeiXin003/src/java/smile/weixin/jdquanyi/service/CoreService.java</file>
+            <file>file:/Users/smile/2%20Develop-Space/Program%20Data/Netbean%20Workpalce/WeiXin003/src/java/smile/weixin/jdquanyi/tools/BusTime.java</file>
+        </group>
+    </open-files>
+</project-private>

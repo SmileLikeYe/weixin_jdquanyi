@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    
+    <property name="hibernate.connection.url">jdbc:mysql://sqld.duapp.com:4050/lcFPbTLThesXUyOZkfxh</property>
+    <property name="hibernate.connection.username">clQGzNi5GMIFuh6G4hiTvGmX</property>
+    <property name="hibernate.connection.password">Vbu5BkATQf9pHwUEhcxwwGGUbP7my9GQ</property>
+    
+    
+<!--        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jdquanyi</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password"></property>-->
+    
+    <property name="hibernate.connection.pool_size">200</property>
+    <!-- Enable Hibernate's automatic session context management -->
+    <property name="current_session_context_class">thread</property>
+    <!-- Disable thl'g'f'f'g'l'fe second-level cache -->
+    <property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+    <!-- Echo all executed SQL to stdout -->
+    <property name="show_sql">true</property>
+    <!-- Drop and re-create the database schema on startup -->
+    <property name="hbm2ddl.auto">update</property>
+    <mapping class="smile.weixin.jdquanyi.database.FX_FuXiu"/>
+    <mapping class="smile.weixin.jdquanyi.database.SW_ShiWu"/>
+    <mapping class="smile.weixin.jdquanyi.database.GYS_GongYiSan"/>
+    <mapping class="smile.weixin.jdquanyi.database.WC_WeekCount"/>
+    <mapping class="smile.weixin.jdquanyi.database.WM_WaiMai"/>
+    <mapping class="smile.weixin.jdquanyi.database.MCC_MenuClickCount"/>  
+    <mapping class="smile.weixin.jdquanyi.database.MQ_MyQuestions"/>
+  </session-factory>
+</hibernate-configuration>
